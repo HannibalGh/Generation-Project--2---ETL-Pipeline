@@ -66,6 +66,10 @@ In order to run the most updated version of the Application, please reference th
 (**Currently: Sprint_2/Phase_2_using_redshift:**)
 
 
+---
+<h1 align="center"> Code Walkthrough Guide (Still being updated)</h1>
 
+---
 
-
+If you wish to understand how the code works, I'm currently working on a walkthrough guide with screenshots from the files and explanations in a PDF format. [Click here](https://github.com/HannibalGh/Generation-Project--2---ETL-Pipeline/blob/main/sprint_2/phase_2_using_redshift/Code%20walk-through.pdf) to be redirected.
+Good luck! 

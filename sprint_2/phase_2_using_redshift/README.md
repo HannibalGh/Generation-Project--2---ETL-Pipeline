@@ -13,9 +13,10 @@
 - Deployment Bucket (**deployment-bucket-stack.yml**)
 - Lambda with psycopg2 dependencies bundled with it  AND  Data bucket for CSV files (**cloud_formation.yml**)
 - Event trigger for lambda from S3 (**test-lambda.sh**)
+- **src.** folder containing code that will be run by the lambda handler on AWS after the environment has been set up using the above 
 - .txt file containing SQL queries used to create our visualizations on Grafana. (**sql_for_grafana.txt**)
-
----
+- **code walk-through.pdf** to explain what is actually occuring
+x---
 
 
 <h1 align="center"> Instructions </h1>
@@ -49,5 +50,5 @@ Run the **lamda_function.py** file.
 3) Then to trigger the lambda by copying a file to the S3 raw data bucket, run this:
 
 ```sh
-./test-etl-lambda.sh
+./test-lambda.sh
 ```

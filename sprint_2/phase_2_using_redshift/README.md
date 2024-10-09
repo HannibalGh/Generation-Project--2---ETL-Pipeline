@@ -30,7 +30,8 @@
 ## How to - Create and load tables into Redshift database:
 
 
-Run the **lamda_function.py** file.
+Run the **lambda_function.py** file (located in the **src** folder: https://github.com/HannibalGh/Generation-Project--2---ETL-Pipeline/tree/main/sprint_2/phase_2_using_redshift/src).
+
 
 (As this will also import and run everything in both the **sql_utils.py** and **data_utils.py** files)
 

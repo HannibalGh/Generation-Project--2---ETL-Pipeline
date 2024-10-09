@@ -13,10 +13,11 @@
 - Deployment Bucket (**deployment-bucket-stack.yml**)
 - Lambda with psycopg2 dependencies bundled with it  AND  Data bucket for CSV files (**cloud_formation.yml**)
 - Event trigger for lambda from S3 (**test-lambda.sh**)
-- **src.** folder containing code that will be run by the lambda handler on AWS after the environment has been set up using the above 
-- .txt file containing SQL queries used to create our visualizations on Grafana. (**sql_for_grafana.txt**)
-- **code walk-through.pdf** to explain what is actually occuring
-x---
+- Source folder containing code that will be run by the lambda handler on AWS after the environment has been set up using the above (**src.**)
+- A .txt file containing SQL queries used to create our visualizations on Grafana. (**sql_for_grafana.txt**)
+- Code walk-through.pdf to explain what is actually occuring (**code walk-through.pdf**)
+
+---
 
 
 <h1 align="center"> Instructions </h1>
